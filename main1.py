@@ -4,7 +4,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-#import yfinance as yf # https://pypi.org/project/yfinance/
 import seaborn
 from scipy import stats
 import pylab as pl
@@ -30,43 +29,43 @@ entry_airport = st.sidebar.selectbox('Select Month you are visiting', ( 'AUS', '
 
                                      
 if entry_airport == 'AUS':
-    df_aus = pd.read_csv("flight_data_and_price_history_AUS_to_SAT.csv")
+    df_aus = pd.read_csv("updated_flight_data_and_price_history_AUS_to_SAT.csv")
     st.markdown("<h2 style='text-align: center; color: black;'>Previous Data of Austin to San Antonio</h2>", unsafe_allow_html=True)
     df_aus.head()                                     
 elif entry_airport == 'BOS':
-    df_bos = pd.read_csv("flight_data_and_price_history_BOS_to_SAT.csv")
+    df_bos = pd.read_csv("updated_flight_data_and_price_history_BOS_to_SAT.csv")
     st.markdown("<h2 style='text-align: center; color: black;'>Previous Data of Boston to San Antonio</h2>", unsafe_allow_html=True)
     df_bos.head()
 elif entry_airport == 'DFW':
-    df_dfw = pd.read_csv("flight_data_and_price_history_DFW_to_SAT.csv")
+    df_dfw = pd.read_csv("updated_flight_data_and_price_history_DFW_to_SAT.csv")
     st.markdown("<h2 style='text-align: center; color: black;'>Previous Data of Dallas to San Antonio</h2>", unsafe_allow_html=True)
     df_dfw.head()
 elif entry_airport == 'FLL':
-    df_fll = pd.read_csv("flight_data_and_price_history_FLL_to_SAT.csv")
+    df_fll = pd.read_csv("updated_flight_data_and_price_history_FLL_to_SAT.csv")
     st.markdown("<h2 style='text-align: center; color: black;'>Previous Data of Florida to San Antonio</h2>", unsafe_allow_html=True)
     df_fll.head()
 elif entry_airport == 'IAH':
-    df_iah = pd.read_csv("flight_data_and_price_history_IAH_to_SAT.csv")
+    df_iah = pd.read_csv("updated_flight_data_and_price_history_IAH_to_SAT.csv")
     st.markdown("<h2 style='text-align: center; color: black;'>Previous Data of Houston to San Antonio</h2>", unsafe_allow_html=True)
     df_iah.head()
 elif entry_airport == 'JFK':
-    df_jfk = pd.read_csv("flight_data_and_price_history_JFK_to_SAT.csv")
+    df_jfk = pd.read_csv("updated_flight_data_and_price_history_JFK_to_SAT.csv")
     st.markdown("<h2 style='text-align: center; color: black;'>Previous Data of New York to San Antonio</h2>", unsafe_allow_html=True)
     df_jfk.head()
 elif entry_airport == 'MIA':
-    df_mia = pd.read_csv("flight_data_and_price_history_MIA_to_SAT.csv")
+    df_mia = pd.read_csv("updated_flight_data_and_price_history_MIA_to_SAT.csv")
     st.markdown("<h2 style='text-align: center; color: black;'>Previous Data of Miami to San Antonio</h2>", unsafe_allow_html=True)
     df_mia.head()
 elif entry_airport == 'SEA':
-    df_sea = pd.read_csv("flight_data_and_price_history_SEA_to_SAT.csv")
+    df_sea = pd.read_csv("updated_flight_data_and_price_history_SEA_to_SAT.csv")
     st.markdown("<h2 style='text-align: center; color: black;'>Previous Data of Seattle to San Antonio</h2>", unsafe_allow_html=True)
     df_sea.head()
 elif entry_airport == 'SFO':
-    df_sfo = pd.read_csv("flight_data_and_price_history_SFO_to_SAT.csv")
+    df_sfo = pd.read_csv("updated_flight_data_and_price_history_SFO_to_SAT.csv")
     st.markdown("<h2 style='text-align: center; color: black;'>Previous Data of San Fransisco to San Antonio</h2>", unsafe_allow_html=True)
     df_sfo.head()
 elif entry_airport == 'SLC':
-    df_slc = pd.read_csv("flight_data_and_price_history_SLC_to_SAT.csv")
+    df_slc = pd.read_csv("updated_flight_data_and_price_history_SLC_to_SAT.csv")
     st.markdown("<h2 style='text-align: center; color: black;'>Previous Data of Salt Lake City to San Antonio</h2>", unsafe_allow_html=True)
     df_slc.head()
 
