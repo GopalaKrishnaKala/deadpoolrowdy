@@ -25,7 +25,7 @@ month_visit = st.sidebar.selectbox('Select Month you are visiting', ( 'January',
 
 st.sidebar.markdown("From Airport are you planning to come to San Antonio?")
 
-entry_airport = st.sidebar.selectbox('Select Month you are visiting', ( 'AUS', 'BOS',"DFW",'FLL', 'IAH', 'JFK',"MIA",'SEA', 'SFO', 'SLC')
+entry_airport = st.sidebar.selectbox('Select Month you are visiting', ( 'AUS', 'BOS',"DFW",'FLL', 'IAH', 'JFK',"MIA",'SEA', 'SFO', 'SLC'))
 
 
                                      
