@@ -21,7 +21,7 @@ days_visit = st.sidebar.number_input('Enter the number of days of recent data yo
 
 st.sidebar.markdown("Which month are you planning to visit San Antonio?")
 
-month_visit = st.sidebar.selectbox('Select Month you are visiting', ( 'January', 'February',"March",'April', 'May', 'June',"July",'August', 'September', 'October',"November",'December')
+month_visit = st.sidebar.selectbox('Select Month you are visiting', ( 'January', 'February',"March",'April', 'May', 'June',"July",'August', 'September', 'October',"November",'December'))
 
 st.sidebar.markdown("From Airport are you planning to come to San Antonio?")
 
