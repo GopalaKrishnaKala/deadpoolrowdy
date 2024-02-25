@@ -29,7 +29,7 @@ entry_airport = st.sidebar.selectbox('Select Month you are visiting', ( 'AUS', '
 
 
 
-df = yf.download(option,start= start_date,end= end_date, progress=False)
+##df = yf.download(option,start= start_date,end= end_date, progress=False)
                                      
 if option == 'AUS':
     df_aus = pd.read_csv("flight_data_and_price_history_AUS_to_SAT.csv")
